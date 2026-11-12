@@ -26,7 +26,7 @@ bash run_benchmark.sh --smoke
 | `required_packages` | `--required-packages` | cuda-toolkit,nvidia-smi | cuda-toolkit,nvidia-smi | cuda-toolkit,nvidia-smi |
 | `permissions_check` | `--permissions-check` | true | true | true |
 | `nvidia_driver_version` | `--nvidia-driver-version` | 580 | 580 | 580 |
-| `cuda_version` | `--cuda-version` | 12.8 | 12.8 | 12.8 |
+| `cuda_version` | `--cuda-version` | 13.3 | 13.3 | 13.3 |
 
 Pick a profile with `--smoke` (default), `--baseline` or `--extended`. Any flag in the table overrides that profile's value:
 
@@ -68,7 +68,7 @@ Every run is checked for completeness and against any `thresholds:` or `baseline
 ## Requirements
 
 - Ubuntu 24.04, root or sudo for `setup.sh`
-- NVIDIA GPU with CUDA 12.8 (validated on H100)
+- NVIDIA GPU with CUDA 13.3 (validated on H100)
 - CUDA Runtime, NVCC, nvidia-smi, Python 3.12. `setup.sh` installs what is missing; Python packages go into a repo-local `.venv`.
 
 ## Run the Whole Bundle

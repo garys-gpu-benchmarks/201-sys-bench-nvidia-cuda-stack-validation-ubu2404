@@ -12,7 +12,7 @@ Compares the live NVIDIA CUDA stack against yaml expectations and emits one CSV 
 | required_packages | `--required-packages` | smoke=cuda-toolkit,nvidia-smi, baseline=cuda-toolkit,nvidia-smi, extended=cuda-toolkit,nvidia-smi | cuda-toolkit,nvidia-smi | From Parameter list; see Execution Description With Parameters. |
 | permissions_check | `--permissions-check` | smoke=true, baseline=true, extended=true | true | From Parameter list; see Execution Description With Parameters. |
 | nvidia_driver_version | `--nvidia-driver-version` | smoke=580, baseline=580, extended=580 | 580 | From Parameter list; see Execution Description With Parameters. |
-| cuda_version | `--cuda-version` | smoke=12.8, baseline=12.8, extended=12.8 | 12.8 | From Parameter list; see Execution Description With Parameters. |
+| cuda_version | `--cuda-version` | smoke=13.3, baseline=13.3, extended=13.3 | 13.3 | From Parameter list; see Execution Description With Parameters. |
 
 ## Invocation
 

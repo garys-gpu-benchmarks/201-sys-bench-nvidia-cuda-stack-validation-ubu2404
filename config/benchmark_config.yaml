@@ -10,4 +10,4 @@ sweep:
   required_packages: cuda-toolkit,nvidia-smi
   permissions_check: true
   nvidia_driver_version: 580
-  cuda_version: 12.8
+  cuda_version: 13.3

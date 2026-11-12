@@ -36,7 +36,7 @@ Parameters (override the profile's value):
   --nvidia-driver-version <value>
                                 Shared workload parameter
                                   all profiles: 580
-  --cuda-version <value>        Shared workload parameter (smoke/baseline/extended: 12.8)
+  --cuda-version <value>        Shared workload parameter (smoke/baseline/extended: 13.3)
 
 General options:
   --config <file>               Config file (default: config/benchmark_config.yaml)
