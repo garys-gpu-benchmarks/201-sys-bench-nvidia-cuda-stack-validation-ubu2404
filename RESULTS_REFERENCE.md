@@ -3,17 +3,17 @@
 **Main goal:** Analyze NVIDIA CUDA software stack consistency against yaml expectations  
 **Tools:** Run nvidia-smi, nvidia-smi -q, nvcc --version, and dpkg-query, then check /dev/nvidia* permissions
 
-Reference results measured by the maintainer on the system shown in each section (generator TEMPLATE_00_141 · recorded 2026-11-14). Your own runs write `results/RESULTS_ACTUAL.md` in the same format.
+Reference results measured by the maintainer on the system shown in each section (generator TEMPLATE_00_142 · recorded 2026-11-16). Your own runs write `results/RESULTS_ACTUAL.md` in the same format.
 
 > Smoke runs use deliberately small sizes. They check that the workload installs and runs end to end; their numbers are not performance results. Baseline and extended are.
 
 <!-- profile:smoke -->
 ## smoke
 
-- **System:** 1× NVIDIA H100 PCIe (81559 MiB) · Intel(R) Xeon(R) Platinum 8352Y CPU @ 2.20GHz · Ubuntu 24.04.5 LTS · kernel 6.8.0-138-generic · driver 595.91.07
-- **Run:** 2026-11-14T10:45:32Z · status **PASS** (exit 0)
-- **Time (mm:ss):** setup 04:54 · benchmark 00:01 · whole run 05:05
-- **Source:** run 201_20261114_104532
+- **System:** 1× NVIDIA H100 NVL (95830 MiB) · Intel(R) Xeon(R) Platinum 8452Y · Ubuntu 24.04.5 LTS · kernel 6.8.0-138-generic · driver 595.91.07
+- **Run:** 2026-11-16T10:51:29Z · status **PASS** (exit 0)
+- **Time (mm:ss):** setup 05:18 · benchmark 00:01 · whole run 05:40
+- **Source:** run 201_20261116_105129
 - **Command:** `bash run_benchmark.sh --smoke --kernel-version 6.8.0 --required-packages cuda-toolkit,nvidia-smi --permissions-check true --nvidia-driver-version 580 --cuda-version 13.3`
 
 | # | Metric | Result |
